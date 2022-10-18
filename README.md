@@ -1,2 +1,1 @@
-# mock-react-router-dom
-Created with CodeSandbox
+[![Open in CodeSandbox](https://img.shields.io/badge/Open-in%20CodeSandbox-blue?style=for-the-badge&logo=codesandbox")](https://githubbox.com/gpichot/react-sandboxes/tree/main/sandboxes/testing/basics)

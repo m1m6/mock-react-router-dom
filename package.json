@@ -1,0 +1,49 @@
+{
+  "name": "jest-rtl-basics",
+  "version": "1.0.0",
+  "description": "React Testing Library & Jest: testing a component",
+  "keywords": [
+    "sandbox",
+    "testing",
+    "react",
+    "jest",
+    "example",
+    "react-testing-library"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@testing-library/jest-dom": "5.16.4",
+    "@testing-library/react": "13.0.0",
+    "@testing-library/user-event": "14.0.4",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-router-dom": "6.4.2",
+    "react-scripts": "5.0.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "@testing-library/jest-dom": "5.16.4",
+    "@testing-library/react": "13.0.0",
+    "@testing-library/user-event": "14.0.4",
+    "@types/jest": "^28.1.7",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "@types/testing-library__jest-dom": "^5.14.5",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "types:check": "tsc --noEmit --project tsconfig.json",
+    "lint": "eslint --fix",
+    "format": "prettier --write src"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
